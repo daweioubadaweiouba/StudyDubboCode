@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+                           http://dubbo.apache.org/schema/dubbo
+                           http://dubbo.apache.org/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="com.liwei.gmall.service.impl"></context:component-scan>
+
+    <!-- 1.指定当前服务/应用的名字(同样的名字服务相同，不要和别的服务同名) -->
+    <dubbo:application name="UserServiceProvider"></dubbo:application>
+
+    <!-- 指定注册中心的位置，让别人能够调用此服务
+            check:记录失败注册和订阅请求，后台定时重试
+            username:zookeeper的默认账号
+            password:zookeeper的默认密码
+            address:zookeeper提供注册中心的地址
+     -->
+    <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" username="root" password="root" check="false"></dubbo:registry>
+
+    <!-- 用dubbo协议在20880端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
+
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.liwei.gmall.service.UserService" ref="UserServiceImpl"></dubbo:service>
+    <!-- 暴露接口的具体引用实现类 -->
+    <bean class="com.liwei.gmall.service.impl.UserServiceImpl" id="UserServiceImpl"></bean>
+
+    <!-- 为注册中心添加一个监控中心 二选一 -->
+    <dubbo:monitor protocol="registry"></dubbo:monitor>
+    <!--    <dubbo:monitor address="127.0.0.1:7070"></dubbo:monitor>-->
+
+
+
+</beans>
