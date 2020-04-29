@@ -12,7 +12,7 @@ public class OrderController {
     private OrderService orderService;
 
     @RequestMapping(value = "initOrder",produces = {"application/json;charset=utf-8"})
-    public String initOrder(String userId) {
+    public String initOrder(String userId) throws InterruptedException {
         String str = orderService.initOrder(userId);
         return str;
     }

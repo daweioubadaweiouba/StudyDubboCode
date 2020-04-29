@@ -8,7 +8,7 @@ import java.io.IOException;
 public class ConsumerMainApplication {
 
     @SuppressWarnings("resource")
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException{
 
         ClassPathXmlApplicationContext ioc = new ClassPathXmlApplicationContext("consumer.xml");
 

@@ -9,18 +9,23 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-@Service(timeout = 1000,retries = 3)  //暴露服务
+@Service(timeout = 6000,retries = 3)  //暴露服务
 @Component
 public class UserServiceImpl implements UserService {
 
     public List<UserAddress> getUserAddressList(String userId){
 
-        System.out.println("userId"+userId);
+        System.out.println("userId"+userId+"3");
         UserAddress obj = new UserAddress(1,"湖北省武汉市","1","bigwei","123123","是");
         UserAddress obj1 = new UserAddress(1,"湖北省武汉市","1","bigwei","123123","是");
         UserAddress obj2 = new UserAddress(1,"湖北省武汉市","2","weibig","321321","否");
         UserAddress obj3 = new UserAddress(1,"湖北省武汉市","2","weibig","321321","否");
         ArrayList<UserAddress> list = new ArrayList<UserAddress>();
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         if(userId.equals(obj.getUserId())){
             list.add(obj);
         }

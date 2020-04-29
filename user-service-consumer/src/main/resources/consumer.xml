@@ -23,7 +23,7 @@
     <!-- 消费者的优先级优于发送者 -->
     <!-- 优先级：1.针对某一消费者的方法的单独设置 2.针对某一消费者设置 3.全局消费者的设置 -->
     <!-- dubbo全局消费者的接口设置，当某一消费者没有进行任何单独配置的时候进行调用 -->
-    <dubbo:consumer check="false" timeout="3000" ></dubbo:consumer>
+    <dubbo:consumer check="false" timeout="8000" retries="1"></dubbo:consumer>
 
     <!-- 声明需要调用的远程服务的接口：生成远程服务代理 -->
     <!-- 这里设置的是针对全局的consumer设置 -->
@@ -33,8 +33,8 @@
          幂等:同一份操作(比如查询、删除、修改)不论重复多少次最后的结果都应该一致
          非幂等:同一份操作(比如新增)只能执行一次
     -->
-    <dubbo:reference interface="com.liwei.gmall.service.UserService" id="userService" check="false" timeout="2000" retries="2">
-        <dubbo:method name="getUserAddressList" timeout="4000" retries="1"></dubbo:method><!-- 针对此服务接口的单个接口进行的配置 -->
+    <dubbo:reference interface="com.liwei.gmall.service.UserService" id="userService" check="false" timeout="6000" retries="2">
+        <dubbo:method name="getUserAddressList" timeout="2000" retries="3"></dubbo:method><!-- 针对此服务接口的单个接口进行的配置 -->
     </dubbo:reference>
 
     <!-- 为注册中心添加一个监控中心 二选一 -->

@@ -11,12 +11,17 @@ public class UserServiceImpl implements UserService {
 
     public List<UserAddress> getUserAddressList(String userId){
 
-        System.out.println("userId"+userId);
+        System.out.println("userId"+userId+"33333333333333");
         UserAddress obj = new UserAddress(1,"湖北省武汉市","1","bigwei","123123","是");
         UserAddress obj1 = new UserAddress(1,"湖北省武汉市","1","bigwei","123123","是");
         UserAddress obj2 = new UserAddress(1,"湖北省武汉市","2","weibig","321321","否");
         UserAddress obj3 = new UserAddress(1,"湖北省武汉市","2","weibig","321321","否");
         ArrayList<UserAddress> list = new ArrayList<UserAddress>();
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         if(userId.equals(obj.getUserId())){
             list.add(obj);
         }

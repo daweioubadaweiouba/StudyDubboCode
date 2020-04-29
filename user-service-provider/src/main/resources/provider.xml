@@ -20,12 +20,12 @@
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" username="root" password="root" check="false"></dubbo:registry>
 
     <!-- 用dubbo协议在20880端口暴露服务 -->
-    <dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
+    <dubbo:protocol name="dubbo" port="20883"></dubbo:protocol>
 
     <!-- 声明需要暴露的服务接口 -->
     <!-- retries:重试次数，不包含第一次调用 -->
-    <dubbo:service interface="com.liwei.gmall.service.UserService" ref="UserServiceImpl" timeout="1000">
-        <dubbo:method name="getUserAddressList" timeout="1000" retries="1"></dubbo:method>
+    <dubbo:service interface="com.liwei.gmall.service.UserService" ref="UserServiceImpl" timeout="3000" retries="3">
+        <dubbo:method name="getUserAddressList" timeout="4000" retries="4"></dubbo:method>
     </dubbo:service>
     <!-- 暴露接口的具体引用实现类 -->
     <bean class="com.liwei.gmall.service.impl.UserServiceImpl" id="UserServiceImpl"></bean>
