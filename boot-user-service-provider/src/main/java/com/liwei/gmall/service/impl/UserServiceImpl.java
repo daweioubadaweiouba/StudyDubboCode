@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-@Service  //暴露服务
+@Service(timeout = 1000,retries = 3)  //暴露服务
 @Component
 public class UserServiceImpl implements UserService {
 

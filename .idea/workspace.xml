@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="73ebec32-62c9-495c-b29c-585e6d571f84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,9 @@
       <workItem from="1587972200990" duration="654000" />
       <workItem from="1587973707856" duration="3942000" />
       <workItem from="1588035251418" duration="11713000" />
-      <workItem from="1588054507081" duration="901000" />
+      <workItem from="1588054507081" duration="1423000" />
+      <workItem from="1588062621552" duration="507000" />
+      <workItem from="1588122613860" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1588055200299</created>
@@ -178,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588055344717</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first">
+      <created>1588055480874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588055480874</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +199,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -223,10 +235,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587867220157" />
-    <state x="439" y="116" key="CommitChangelistDialog2" timestamp="1588055344101">
+    <state x="439" y="116" key="CommitChangelistDialog2" timestamp="1588055480227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="439" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588055344101" />
+    <state x="439" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588055480227" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1588055310544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
