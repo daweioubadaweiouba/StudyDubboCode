@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73ebec32-62c9-495c-b29c-585e6d571f84" name="Default Changelist" comment="">
+    <list default="true" id="73ebec32-62c9-495c-b29c-585e6d571f84" name="Default Changelist" comment="second">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/studyDubbo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studyDubbo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/boot-order-service-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/boot-order-service-consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/liwei/gmall/BootOrderServiceConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/liwei/gmall/BootOrderServiceConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/liwei/gmall/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/liwei/gmall/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-user-service-provider/boot-user-service-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/boot-user-service-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/BootUserServiceProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/BootUserServiceProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-interface/gmall-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-interface/gmall-interface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service-consumer/user-service-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-consumer/user-service-consumer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service-provider/user-service-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-provider/user-service-provider.iml" afterDir="false" />
@@ -63,6 +97,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="jdk1.8" />
@@ -71,7 +106,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27011493" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -174,7 +209,9 @@
       <workItem from="1588062621552" duration="507000" />
       <workItem from="1588122613860" duration="17023000" />
       <workItem from="1588152112183" duration="207000" />
-      <workItem from="1588159409297" duration="385000" />
+      <workItem from="1588159409297" duration="2519000" />
+      <workItem from="1588162699107" duration="377000" />
+      <workItem from="1588163129376" duration="2154000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1588055200299</created>
@@ -225,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588125630627</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="second">
+      <created>1588159952622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588159952623</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,10 +317,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587867220157" />
-    <state x="439" y="116" key="CommitChangelistDialog2" timestamp="1588125629686">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="329" y="40" key="CommitChangelistDialog2" timestamp="1588161126040">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="439" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588125629686" />
+    <state x="329" y="40" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1588161126040" />
     <state x="144" y="94" key="DiffContextDialog" timestamp="1588159883781">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
@@ -329,15 +374,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587867412254" />
-    <state x="330" y="23" key="SettingsEditor" timestamp="1588152167706">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="431" y="152" key="MultipleFileMergeDialog" timestamp="1588159970075">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="431" y="152" key="MultipleFileMergeDialog/0.23.1440.811@0.23.1440.811" timestamp="1588159970075" />
+    <state x="330" y="23" key="SettingsEditor" timestamp="1588164356887">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588144086034" />
+    <state x="330" y="23" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1588164356887" />
     <state x="330" y="23" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1588152167706" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588055395655">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="414" y="223" key="Vcs.Push.Dialog.v2" timestamp="1588167341229">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588055395655" />
+    <state x="414" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.811@0.23.1440.811" timestamp="1588167341229" />
     <state x="365" y="171" key="VcsDiffUtil.ChangesDialog" timestamp="1588159813980">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
@@ -359,10 +410,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="328" key="generate.patterns.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587875034794" />
-    <state x="367" y="228" key="git4idea.merge.GitPullDialog" timestamp="1588159855588">
+    <state x="367" y="228" key="git4idea.merge.GitPullDialog" timestamp="1588161101064">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="367" y="228" key="git4idea.merge.GitPullDialog/0.23.1440.811@0.23.1440.811" timestamp="1588159855588" />
+    <state x="367" y="228" key="git4idea.merge.GitPullDialog/0.23.1440.811@0.23.1440.811" timestamp="1588161101064" />
     <state x="367" y="228" key="git4idea.merge.GitPullDialog/0.23.1440.812@0.23.1440.812" timestamp="1588159474510" />
     <state x="334" y="224" key="new project wizard" timestamp="1587955255981">
       <screen x="0" y="0" width="1920" height="1040" />

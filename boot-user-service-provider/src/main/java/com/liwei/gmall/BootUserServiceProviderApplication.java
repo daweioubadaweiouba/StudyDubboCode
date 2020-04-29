@@ -3,6 +3,7 @@ package com.liwei.gmall;
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.context.annotation.ImportResource;
 
 /**
@@ -18,6 +19,7 @@ import org.springframework.context.annotation.ImportResource;
  */
 @EnableDubbo  //开启基于注解的dubbo功能，第一种方式的时候用的
 //@ImportResource(locations = "classpath:provider.xml")
+@EnableHystrix  //开启异常容错
 @SpringBootApplication
 public class BootUserServiceProviderApplication {
 
