@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73ebec32-62c9-495c-b29c-585e6d571f84" name="Default Changelist" comment="second">
+    <list default="true" id="73ebec32-62c9-495c-b29c-585e6d571f84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/config/MyDubboConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/service/impl/UserServiceImplNewVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/resources/provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-provider/src/main/java/com/liwei/gmall/service/impl/UserServiceStub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/liwei/gmall/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/liwei/gmall/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/liwei/gmall/BootOrderServiceConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/liwei/gmall/BootOrderServiceConsumerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/liwei/gmall/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/liwei/gmall/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/target/classes/com/liwei/gmall/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/target/classes/com/liwei/gmall/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/target/classes/com/liwei/gmall/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/target/classes/com/liwei/gmall/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/BootUserServiceProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/BootUserServiceProviderApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/liwei/gmall/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-interface/src/main/java/com/liwei/gmall/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-interface/src/main/java/com/liwei/gmall/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-interface/src/main/java/com/liwei/gmall/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-interface/src/main/java/com/liwei/gmall/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-consumer/src/main/java/com/liwei/gmall/ConsumerMainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-consumer/src/main/java/com/liwei/gmall/ConsumerMainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/target/classes/com/liwei/gmall/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/target/classes/com/liwei/gmall/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service-consumer/src/main/resources/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-consumer/src/main/resources/consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-consumer/target/classes/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-consumer/target/classes/consumer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service-provider/src/main/java/com/liwei/gmall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-provider/src/main/java/com/liwei/gmall/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service-provider/src/main/resources/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-provider/src/main/resources/provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-provider/target/classes/com/liwei/gmall/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-provider/target/classes/com/liwei/gmall/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-provider/target/classes/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-provider/target/classes/provider.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +80,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="jdk1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/user-service-consumer/src/main/java/com/liwei/gmall" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-user-service-provider/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.side.proportion" value="0.27011493" />
+    <property name="settings.editor.selected.configurable" value="configurable.stylesheets" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -85,12 +95,14 @@
       <recent name="service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaStudySpace\studyDubbo\boot-user-service-provider\src\main\resources" />
+      <recent name="D:\JavaStudySpace\studyDubbo\boot-order-service-consumer\src\main\resources" />
       <recent name="D:\JavaStudySpace\studyDubbo\user-service-consumer\src\main\java\com\liwei\gmall" />
       <recent name="D:\JavaStudySpace\studyDubbo\user-service-consumer\src\main\java" />
       <recent name="D:\JavaStudySpace\studyDubbo\user-service-consumer\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsumerMainApplication">
+  <component name="RunManager" selected="Application.MainApplication">
     <configuration name="ConsumerMainApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liwei.gmall.ConsumerMainApplication" />
       <module name="user-service-consumer" />
@@ -173,7 +185,7 @@
       <workItem from="1588035251418" duration="11713000" />
       <workItem from="1588054507081" duration="1423000" />
       <workItem from="1588062621552" duration="507000" />
-      <workItem from="1588122613860" duration="2642000" />
+      <workItem from="1588122613860" duration="17023000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1588055200299</created>
@@ -210,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588123211273</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="second">
+      <created>1588125495183</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588125495183</updated>
+    </task>
+    <task id="LOCAL-00007" summary="second">
+      <created>1588125630627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588125630627</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,26 +268,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1588054897749" />
-    <state x="414" y="178" width="1151" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588124540867">
+    <state x="414" y="178" width="1151" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588149992673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="178" width="1151" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588124540867" />
+    <state x="414" y="178" width="1151" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588149992673" />
     <state x="688" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587868519812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587868519812" />
-    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1587875645368">
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1588126732885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587875645368" />
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588126732885" />
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587867220157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587867220157" />
-    <state x="439" y="116" key="CommitChangelistDialog2" timestamp="1588123272409">
+    <state x="439" y="116" key="CommitChangelistDialog2" timestamp="1588125629686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="439" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588123272409" />
+    <state x="439" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588125629686" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1588055310544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -274,22 +300,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="610" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588054740786" />
-    <state width="1877" height="539" key="GridCell.Tab.0.bottom" timestamp="1588125318878">
+    <state width="1877" height="539" key="GridCell.Tab.0.bottom" timestamp="1588149974821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="539" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588125318878" />
-    <state width="1877" height="539" key="GridCell.Tab.0.center" timestamp="1588125318878">
+    <state width="1877" height="539" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588149974821" />
+    <state width="1877" height="539" key="GridCell.Tab.0.center" timestamp="1588149974821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="539" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588125318878" />
-    <state width="1877" height="539" key="GridCell.Tab.0.left" timestamp="1588125318878">
+    <state width="1877" height="539" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588149974821" />
+    <state width="1877" height="539" key="GridCell.Tab.0.left" timestamp="1588149974820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="539" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588125318878" />
-    <state width="1877" height="539" key="GridCell.Tab.0.right" timestamp="1588125318878">
+    <state width="1877" height="539" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588149974820" />
+    <state width="1877" height="539" key="GridCell.Tab.0.right" timestamp="1588149974821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="539" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588125318878" />
+    <state width="1877" height="539" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588149974821" />
     <state width="1877" height="539" key="GridCell.Tab.1.bottom" timestamp="1588054503284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -310,10 +336,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587867412254" />
-    <state x="440" y="97" key="SettingsEditor" timestamp="1588055166108">
+    <state x="440" y="97" key="SettingsEditor" timestamp="1588144086034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588055166108" />
+    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588144086034" />
     <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588055395655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -346,9 +372,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588043634187" />
-    <state x="640" y="212" key="spring file set editor" timestamp="1587874488312">
+    <state x="640" y="212" key="spring file set editor" timestamp="1588142891138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="212" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1587874488312" />
+    <state x="640" y="212" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1588142891138" />
   </component>
 </project>

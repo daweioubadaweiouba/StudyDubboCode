@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class OrderServiceImpl implements OrderService {
     //这里设置的参数都是针对 某一服务进行的特殊设置
-    @Reference(check = false,timeout = 2000,retries = 3)//check启动时候检查,timeout设置超时时间,避免线程阻塞,retries:不包括第一次
+    @Reference(check = false,timeout = 2000,retries = 3,version = "*")//check启动时候检查,timeout设置超时时间,避免线程阻塞,retries:不包括第一次
     //@Autowired
     UserService userService;
 

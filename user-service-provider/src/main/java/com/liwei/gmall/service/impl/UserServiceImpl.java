@@ -11,7 +11,7 @@ public class UserServiceImpl implements UserService {
 
     public List<UserAddress> getUserAddressList(String userId){
 
-        System.out.println("userId"+userId+"33333333333333");
+        System.out.println("userId"+userId+"I am old version");
         UserAddress obj = new UserAddress(1,"湖北省武汉市","1","bigwei","123123","是");
         UserAddress obj1 = new UserAddress(1,"湖北省武汉市","1","bigwei","123123","是");
         UserAddress obj2 = new UserAddress(1,"湖北省武汉市","2","weibig","321321","否");

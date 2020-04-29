@@ -1,5 +1,6 @@
 package com.liwei.gmall.service.impl;
 
+
 import com.alibaba.dubbo.config.annotation.Service;
 import com.liwei.gmall.bean.UserAddress;
 import com.liwei.gmall.service.UserService;
@@ -8,10 +9,9 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-//@Service(timeout = 6000,retries = 3,version = "1.0.0")  //暴露服务  如果使用api的config开发则不需要service注解
-@Component
-public class UserServiceImpl implements UserService {
-
+//@Service(timeout = 6000,retries = 3,version = "2.0.0")  //暴露服务
+//@Component
+public class UserServiceImplNewVersion implements UserService {
 
     public List<UserAddress> getUserAddressList(String userId){
 
@@ -40,8 +40,6 @@ public class UserServiceImpl implements UserService {
         }
         return list;
     }
-
-
 
 
 }
