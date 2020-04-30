@@ -1,3 +1,20 @@
 1.将服务提供者注册到注册中心(暴露服务)
     1.1导入dubbo依赖，引入操作zookeeper的客户端(dubbo2.5版本之前用的是zkclient，2.5版本之后用的是curator-framework)
 2.让服务消费者去注册中心订阅服务提供者的地址
+
+
+BIO阻塞io：由Socket创建一个连接之后开启一个线程进行read和write操作。其中Socket里面的accept操作会阻塞，如果有很多连接进行的话那么意味着有很
+多的线程被阻塞，那么服务器就不能同时处理很多大量的请求。
+NIO(非阻塞io)：由channel(通道，内部有buffer)进行传输，一个seletor(选择器)能够register很多channel通道，seletor能够监听多个channel，当发现某一
+个channel连接好了，发现某一个channel的connection成功了，监听channel的read和write事件，发现这两个事件就绪之后，就开始accept接受数据
+
+Netty
+Netty是一个异步事件驱动的网络应用程序框架， 用于快速开发可维护的高性能协议服务器和客户端。它极大地简化并简化了TCP和UDP套接字服务器等网络编程。
+
+Netty是基于NIO的多路复用模型来做的
+Netty会监听某端口，所有给该端口发送的数据netty能接收到。
+1.会初始化netty的channel 2.并将其register到seletor(选择器.多路复用器)里面,seletor会监听accpet事件，当事件就绪后会处理通道里面的信息了
+3.会与客户端建立起连接，创建一个NIOSocketChannel，将channel注册到新的seletor里面，seletor会监听read和write事件，数据读和写准备就绪之后
+会生成(任务队列)来进行读和写事件
+
+操作其中里面会有两个线程组(boss和work):boss线程组会监听端口(dubbo 20880)的准备就绪事件，事件就绪后会把任务丢给work线程组去做
