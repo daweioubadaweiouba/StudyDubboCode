@@ -2,7 +2,6 @@
     1.1导入dubbo依赖，引入操作zookeeper的客户端(dubbo2.5版本之前用的是zkclient，2.5版本之后用的是curator-framework)
 2.让服务消费者去注册中心订阅服务提供者的地址
 
-
 BIO阻塞io：由Socket创建一个连接之后开启一个线程进行read和write操作。其中Socket里面的accept操作会阻塞，如果有很多连接进行的话那么意味着有很
 多的线程被阻塞，那么服务器就不能同时处理很多大量的请求。
 NIO(非阻塞io)：由channel(通道，内部有buffer)进行传输，一个seletor(选择器)能够register很多channel通道，seletor能够监听多个channel，当发现某一
@@ -31,4 +30,11 @@ Dubbo原理：
 export首先会读取register的地址，获取protocol配置里面的多个协议(dubbo://或http://或webservice://)，而后会利用DubboExporter和registerExporter
 的暴露器暴露服务，最后会调用Netty的很多bind方法，会产生一个ProviderConsumerRegTable里面会有服务的url和对应的执行器，当需要提供服务的时候，
 首先找到url地址，再根据地址找到对应执行器来提供服务
+
+3服务引用流程：ReferenceBean实现Spring的FactoryBean，会调用里面的init方法，进入到ReferenceConfig的creatProxy方法，调用里面的refprotocol.refer
+方法参数(interface,urls.get(0))里面有register的地址，核心是DubboProtocol的refer方法和registerProtocol的refer方法(先得到register的地址，再
+得到信息ip 端口之类的)，进而调用doRefer方法里面的directory.subscribe方法来订阅服务提供者来提供的服务，同时会来到DubboProtocol的里面调用refer
+方法，通过里面的getClients方法获取客户端放回真正的invoke，invoke里面会有很多需要用的参数(dubbo协议，register地址，还有所需要调用的接口方法等)
+再调用ProviderConsumerRegTable.registerConsumer方法把invoker、url、subscribeURL、directory当做参数传递进去，最后返回ReferenceConfig的
+createProxy方法会得到一个代理对象，并且里面封装需要的参数，接下来调用对象就好了
 
