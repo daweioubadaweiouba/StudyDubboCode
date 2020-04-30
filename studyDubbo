@@ -13,8 +13,22 @@ Netty是一个异步事件驱动的网络应用程序框架， 用于快速开�
 
 Netty是基于NIO的多路复用模型来做的
 Netty会监听某端口，所有给该端口发送的数据netty能接收到。
-1.会初始化netty的channel 2.并将其register到seletor(选择器.多路复用器)里面,seletor会监听accpet事件，当事件就绪后会处理通道里面的信息了
+1.会初始化netty的channel
+2.并将其register到seletor(选择器.多路复用器)里面,seletor会监听accpet事件，当事件就绪后会处理通道里面的信息了
 3.会与客户端建立起连接，创建一个NIOSocketChannel，将channel注册到新的seletor里面，seletor会监听read和write事件，数据读和写准备就绪之后
 会生成(任务队列)来进行读和写事件
 
 操作其中里面会有两个线程组(boss和work):boss线程组会监听端口(dubbo 20880)的准备就绪事件，事件就绪后会把任务丢给work线程组去做
+
+Dubbo原理：
+1标签解析：dubbo的标签被spring解析的时候，基本所有的标签都会有一个总接口(BeanDefinitionParse被继承DubboBeanDefinitionParse)的pasre方法解析
+此方法会解析各个标签的信息，会添加一些id，value值会根据每个标签的value值配置beanClass，DubboNameSpaceHandle里面都有每一
+个beanClass(例如:protocolConfig.consumerConfig.providerConfig其中较为特别的是service.reference标签对应的是ServiceBean,ReferenceBean)
+
+2服务暴露流程：ServiceBean实现了InitializingBean接口，
+(第一步)组件创建完成之后会调用InitializingBean接口的afterpropertiesSet，会将providerConfig.protocolConfig.RegisterConfig等都set给ServiceBean
+(第二步)在ioc容器启动完成之后调用onApplicationEvent方法，判断接口只要不是延迟暴露和还没暴露和不是不暴露便执行export(暴露服务)方法
+export首先会读取register的地址，获取protocol配置里面的多个协议(dubbo://或http://或webservice://)，而后会利用DubboExporter和registerExporter
+的暴露器暴露服务，最后会调用Netty的很多bind方法，会产生一个ProviderConsumerRegTable里面会有服务的url和对应的执行器，当需要提供服务的时候，
+首先找到url地址，再根据地址找到对应执行器来提供服务
+
