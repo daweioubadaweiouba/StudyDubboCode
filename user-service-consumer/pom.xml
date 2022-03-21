@@ -20,7 +20,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
-            <version>2.6.5</version>
+            <version>2.6.9</version>
         </dependency>
 
         <!-- 注册中心使用的是zookeeper，引入操作zookeeper的客户端 dubbo2.5版本以前用的是zkclient 2.5版本以后用的是curator-framework -->
